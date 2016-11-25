@@ -1,4 +1,4 @@
-// initialise la fenêtre
+// initialise la fenêtre modal
 var modal = document.getElementById('myModal');
 
 // Get the <span> element that closes the modal
@@ -25,9 +25,3 @@ for (i = 0; i < images.length; i++) {
        captionText.innerHTML = this.nextElementSibling.innerHTML;
    }
 }
-//confirm("Bienvenu sur le site d'Iron ! N'ayez pas peur je ne mords pas!!");
-//$(document).ready(function(){
-    //$("#flip").click(function(){
-      //  $("#panel").fadeToggle("slow");
-  //  });
-//});
