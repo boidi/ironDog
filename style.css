@@ -1,9 +1,10 @@
 hr{
   height: 2px;
-  background-color: grey;
   }
   body{
-  background-color:#CECDC6;
+  background-image: url('images/fond.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
   }
   .titre{
   background-color: lightgrey;
