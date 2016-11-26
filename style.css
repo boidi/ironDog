@@ -1,11 +1,21 @@
-a{
+a:hover {
+   text-shadow: 0px 0px 9px white;
+   text-decoration:none;
+}
+header, h1{
+  color : white;
+}
+h2,h3,p{
+  color: white;
+  }
+  a{
   color: white;
 }
 hr{
   height: 2px;
   }
   body{
-  background-image: url('images/fond.jpg');
+  background-image: url('images/gradient-back.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
   }
@@ -14,10 +24,11 @@ background-attachment: fixed;
     border-radius: 10px 10px 10px 10px;
 }
 header{
-  background-color: #DDDDDD;
+  background-color: #6792F7;
   border-radius: 10px 10px 10px 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+
 }
 .tete{
   padding-left: 80px;
